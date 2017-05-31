@@ -18,9 +18,12 @@ class ViewController: UIViewController {
             if granted {
                 print("Notification access granted")
             } else {
-                print(error?.localizedDescription)
+                print(error?.localizedDescription as Any)
             }
         })
     }
     
+    @IBAction func notifyButtonTapped(sender: UIButton) {
+        
+    }
 }
