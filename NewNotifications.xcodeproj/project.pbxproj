@@ -77,8 +77,11 @@
 		899088581EDF3B3800BDD742 /* NewNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				8990887B1EDF3C9600BDD742 /* Model */,
+				8990887A1EDF3C8B00BDD742 /* View */,
+				899088791EDF3C7F00BDD742 /* Controller */,
+				8990887C1EDF3C9D00BDD742 /* Resources */,
 				899088591EDF3B3800BDD742 /* AppDelegate.swift */,
-				8990885B1EDF3B3900BDD742 /* ViewController.swift */,
 				8990885D1EDF3B3900BDD742 /* Main.storyboard */,
 				899088601EDF3B3900BDD742 /* Assets.xcassets */,
 				899088621EDF3B3900BDD742 /* LaunchScreen.storyboard */,
@@ -94,6 +97,35 @@
 				899088701EDF3B3900BDD742 /* Info.plist */,
 			);
 			path = NewNotificationsTests;
+			sourceTree = "<group>";
+		};
+		899088791EDF3C7F00BDD742 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8990885B1EDF3B3900BDD742 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8990887A1EDF3C8B00BDD742 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8990887B1EDF3C9600BDD742 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8990887C1EDF3C9D00BDD742 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
